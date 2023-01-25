@@ -4,10 +4,24 @@ A Set of Models to predict to the trajectories of multiple digital currencies.
 
 ## Overview
 
-Cryptocurrencies are a new frontier of digital investments characterized by their future potential in 
+Cryptocurrencies are a new frontier of investment characterized by their future potential in 
 a multitude of markets.  As investments, however, they are highly volatile due to their lacking basis 
 in functional worth which makes machine learning models an important tool in tracking their future 
 value for trading sake.
+
+## Project Description
+
+The files in this project:
+- BTC.csv: Bitcoin historical data sourced from Yahoo Finance
+- ETH.csv: Ethereum historical data sourced from Yahoo Finance
+- bitcoin.ipynb: Python Notebook containing all the models and their training
+- models: A folder containing all the best models from prior training
+- requirements.txt: The python requirements file for local use
+
+The models in this project are Recurrent Neural Networks built with Keras' LSTM network.
+
+All the data used to train the respective models is historical data starting from the beginning of 
+their recorded values.
 
 ## Use and Install
 
