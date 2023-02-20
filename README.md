@@ -30,4 +30,4 @@ This project used a virtual environment.
 
 As a Jupyter Notebook, web applications such as Google Colab will be a servicable alternative, and the project should work fine as long as the data is loaded in appropriately.
 
-Data used for training was sourced from Yahoo Finance.  Ensure the data is set to as far back as possible to reproduce results.
+Data used for training was sourced from Yahoo Finance.  Ensure the data is set to as far back as possible to reproduce results, and place it in a /data folder.
